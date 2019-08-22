@@ -7,7 +7,6 @@ require 'rails/all'
 Bundler.require(*Rails.groups)
 
 
-config.i18n.fallbacks = true
 
 module Spectre
   class Application < Rails::Application
