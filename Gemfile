@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.4.6'
+ruby '2.5.5'
 gem 'rails'
 gem 'pg'
 gem 'sass-rails', '~> 5.0'
@@ -52,7 +52,7 @@ end
 
 group :demo_test_run do
   gem 'capybara'
-  gem 'poltergeist'
+  
   gem 'rmagick'
   gem 'rspec'
   gem 'spectre_client', git: 'https://github.com/wearefriday/spectre_client.git'
